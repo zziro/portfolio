@@ -102,7 +102,7 @@ main {
 .cover__page {
   width: 100%;
   position: relative;
-  background-image: url("./images/huacho.jpg");
+  background-image: url("./images/peru.jpg");
   background-size: cover;
   height: 600px;
 }
