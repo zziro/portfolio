@@ -36,7 +36,7 @@ ul {
   float: right;
   font-size: .8em;
   color: #333;
-  text-decoration: none;
+  /*text-decoration: none;*/
 }
 
 
@@ -66,11 +66,11 @@ ul {
 }
 
 .header__title {
+  color: #2d3c49;
+  display: inline-block;
   font-weight: 300;
   font-size: 4em;
   margin: 0.5em 0.25em;
-  display: inline-block;
-  color: #2d3c49;
 }
 
 
@@ -102,14 +102,12 @@ ul {
   text-transform: uppercase;
 }
 
-.nav a {
-  text-decoration: none;
+.nav a {  
   color: #616161;
   padding: 1.5em;
 }
 
-.nav a:hover {
-  text-decoration: underline;
+.nav a:hover {  
   color: #212121;
 }
 
@@ -143,7 +141,7 @@ main {
 .hero {
   width: 100%;
   position: relative;
-  background-image: url("./images/huacho-photo.jpg");
+  background-image: url("./images/huacho-photo.JPG");
   background-size: cover;
   height: 400px;
 }
@@ -195,17 +193,11 @@ main {
 }
 
 .top-news__item a {
-  text-decoration: none;
+  /*text-decoration: none;*/
   color: #666;
   padding-top: 1.5em;
   padding-bottom: 1.5em;
 }
-
-.top-news__item a:hover,
-.top-news__item a:active {
-  text-decoration: underline;
-}
-
 
 /*
  *
@@ -265,9 +257,18 @@ main {
 }
 
 .weather__location {
+  color: #7d97ad;
   display: block;
   font-weight: 300;
-  font-size: 1.5em;
+  font-size: 1.9em;
+
+}
+
+.country_name{
+ color: #2d3c49;   
+ font-size: 1.9em;
+ text-decoration: none;   
+ 
 }
 
 .weather__desc {
@@ -295,8 +296,10 @@ main {
 
 .weather__next__item {
   display: inline-block;
-  width: 33%;
+  width: 33.33%;
   text-align: center;
+  padding-top: 1.5em;
+  padding-bottom: 1.5em;
 }
 
 .weather__next__item span {
@@ -304,7 +307,8 @@ main {
 }
 
 .weather__next__image {
-  width: 100%;
+  width: 100%;  
+
 }
 
 
@@ -335,7 +339,7 @@ main {
 }
 
 .snippet__title a {
-  text-decoration: none;
+  /*text-decoration: none;*/
   color: #666;
   padding-top: 1.5em;
   padding-bottom: 1.5em;
@@ -343,5 +347,5 @@ main {
 
 .snippet__title a:hover,
 .snippet__title a:active {
-  text-decoration: underline;
+  /*text-decoration: underline;*/
 }
