@@ -36,7 +36,6 @@ ul {
   float: right;
   font-size: .8em;
   color: #333;
-  /*text-decoration: none;*/
 }
 
 
@@ -59,7 +58,7 @@ ul {
 }
 
 .header__logo {
-  height: 72px;
+  height: 150px;  
   margin-right: 1em;
   vertical-align: top;
   margin-top: 12px;
@@ -68,47 +67,15 @@ ul {
 .header__title {
   color: #2d3c49;
   display: inline-block;
+  float: right;
   font-weight: 300;
   font-size: 4em;
   margin: 0.5em 0.25em;
 }
 
-
-/*
- *
- * Top Level Navigation
- *
- */
-
-.nav {
-  width: 100%;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.nav__list {
-  width: 100%;
-  padding: 0;
-  margin: 0;
-}
-
-.nav__item {
-  box-sizing: border-box;
-  display: inline-block;
-  width: 24%;
-  text-align: center;
-  line-height: 24px;
-  padding: 24px;
-  text-transform: uppercase;
-}
-
-.nav a {  
-  color: #616161;
-  padding: 1.5em;
-}
-
-.nav a:hover {  
-  color: #212121;
+.detail_title{
+    font-size: 30px; 
+    text-align: right;
 }
 
 
@@ -125,28 +92,22 @@ main {
   margin-right: auto;
 }
 
-/*
- *
- * Content
- *
- */
-
 
 /*
  *
- * Hero
+ * Cover Page
  *
  */
 
-.hero {
+.cover__page {
   width: 100%;
   position: relative;
-  background-image: url("./images/huacho-photo.jpg");
+  background-image: url("./images/huacho.jpg");
   background-size: cover;
-  height: 400px;
+  height: 600px;
 }
 
-.hero article {
+.cover__page article {
   box-sizing: border-box;
   background-color: #000;
   background-color: rgba(0, 0, 0, 0.7);
@@ -161,102 +122,15 @@ main {
 
 /*
  *
- * Top News
+ * Places's list
  *
  */
 
-.top-news {
-  height: 300px;
-  border-bottom: 1px solid #E0E0E0;
+.places__list {
   padding: 1em;
 }
 
-.news__title {
-  font-weight: 300;
-  border-bottom: 1px solid #E0E0E0;
-  line-height: 24px;
-  font-size: 16px;
-}
-
-.top-news__item {
-  border-bottom: 1px solid #E0E0E0;
-  padding: 1em 0;
-  line-height: 19.2px;
-}
-
-.top-news__item:before {
-  content: "» ";
-}
-
-.top-news__item:last-child {
-  border-bottom: none;
-}
-
-.top-news__item a {
-  /*text-decoration: none;*/
-  color: #666;
-  padding-top: 1.5em;
-  padding-bottom: 1.5em;
-}
-
-/*
- *
- * Sport Scores
- *
- */
-
-.scores {
-  padding-top: 1em;
-}
-
-.scores__table {
-  width: 100%;
-  border-collapse: collapse;
-}
-
-.scores__table th,
-.scores__table td {
-  padding: 1em;
-}
-
-.scores__table th {
-  color: #fff;
-  font-weight: 300;
-  background-color: #78909C;
-}
-
-.scores__table tr:nth-child(odd) td {
-  background-color: #fff;
-}
-
-.scores__table tr:nth-child(even) td {
-  background-color: #eceff1;
-}
-
-.scores__table td.winner {
-  font-weight: bold;
-}
-
-.scores__table td:nth-child(3) {
-  text-align: right;
-}
-
-.scores__table td:nth-child(2),
-.scores__table td:nth-child(5) {
-  text-align: center;
-}
-
-/*
- *
- * Weather
- *
- */
-
-.weather {
-  padding: 1em;
-}
-
-.weather__location {
+.feature__work {
   color: #7d97ad;
   display: block;
   font-weight: 300;
@@ -271,30 +145,30 @@ main {
  
 }
 
-.weather__desc {
+.place__desc {
   display: block;
   font-size: 1.2em;
 }
 
-.weather__today {
+.place__today {
   width: 60%;
   vertical-align: middle;
 }
 
-.weather__today__image {
+.place__today__image {
   vertical-align: middle
 }
 
-.weather__today__temp {
+.place__today__temp {
   font-size: 3em;
 }
 
-.weather__today__deg {
+.place__today__deg {
   font-size: 2em;
   display: inline;
 }
 
-.weather__next__item {
+.place__next__item {
   display: inline-block;
   width: 33.33%;
   text-align: center;
@@ -302,50 +176,11 @@ main {
   padding-bottom: 1.5em;
 }
 
-.weather__next__item span {
+.place__next__item span {
   display: block;
 }
 
-.weather__next__image {
-  width: 100%;  
+.place__next__image {
+  width: 80%;  
 
-}
-
-
-/*
- *
- * Recent News
- *
- */
-
-.recent-news {
-  clear: both;
-  padding: 1em;
-}
-
-.snippet {
-  clear: both;
-  margin: 24px 0;
-}
-
-.snippet__thumbnail {
-  width: 100px;
-  float: left;
-  margin-right: 1em;
-}
-
-.snippet__title {
-  font-weight: 500;
-}
-
-.snippet__title a {
-  /*text-decoration: none;*/
-  color: #666;
-  padding-top: 1.5em;
-  padding-bottom: 1.5em;
-}
-
-.snippet__title a:hover,
-.snippet__title a:active {
-  /*text-decoration: underline;*/
 }
