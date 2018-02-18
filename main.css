@@ -141,7 +141,7 @@ main {
 .hero {
   width: 100%;
   position: relative;
-  background-image: url("./images/huacho-photo.JPG");
+  background-image: url("./images/huacho-photo.jpg");
   background-size: cover;
   height: 400px;
 }
