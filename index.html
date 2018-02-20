@@ -11,43 +11,53 @@
   <body>
 
     <header class="header">        
-      <div class="header__inner">
-        <img class="header__logo" src="images/profile.jpg" alt="iconic view of a cityscape">
-        <h1 class="header__title">
+      <div class="header-inner">
+        <img class="header-logo" src="images/logo.jpg" alt="iconic view of a cityscape">
+        <h1 class="header-title">
           CIRO LIBERATO CARMÍN
-          <aside class="detail_title">Full Stack Web Developer</aside>
+          <aside class="detail_title"><p>Full Stack Web Developer</p></aside>
         </h1>
       </div>
     </header> 
 
     <main>
       <section class="content">
-        <section class="cover__page">          
+        <section class="cover-page">          
         </section>
-        <section class="places__list">
-        <span class="feature__work">Featured Work</span>                    
-          <ul class="place__next">
-            <li class="place__next__item">
-               <span><a href="http://www.bangkok.com/"><img class="place__next__image" src="images/thailand.jpg" alt="Places to visit in Thailand"></a></span>
+        <section class="places-list">
+        <span class="feature-work"><h3>Featured Work</h3></span>
+        <div class="places-flex-grid">           
+          <div class="col">
+            <span><a href="http://www.bangkok.com/" target="_blank"><img class="place-next-image" src="images/thailand.jpg" sizes="(max-width: 400px) 100vw, (min-width: 401px) 50vw" srcset="images/thailand.jpg 400w, images/thailand.jpg 800w" alt="Places to visit in Thailand"></a></span>
+            <span>
+              <a class="country_name" href="http://www.bangkok.com/ target="_blank""><h4>THAILAND</h4></a>
+            </span>
+          </div>
+          <div class="col">
               <span>
-                  <a class="country_name" href="http://www.bangkok.com/">THAILAND</a>
-              </span>
-            </li><li class="place__next__item">              
-              <span>
-                  <a href="https://www.iamsterdam.com/en/"><img class="place__next__image" src="images/netherlands.jpg" alt="Plces to visit in Netherlands"></a>
-              </span>
-              <span>
-                  <a class="country_name" href="https://www.iamsterdam.com/en/">NETHERLANDS</a>
-              </span>          
-            </li><li class="place__next__item">              
-              <span>
-                  <a href="https://www.lonelyplanet.com/vietnam"><img class="place__next__image" src="images/vietnam.jpg" alt="Places to visit in Vietnam"></a>
+                  <a href="https://www.iamsterdam.com/en/" target="_blank"><img class="place-next-image" src="images/netherlands.jpg" sizes="(max-width: 400px) 100vw, (min-width: 401px) 50vw" srcset="images/netherlands.jpg 400w, images/netherlands.jpg 800w" alt="Plces to visit in Netherlands"></a>
               </span>
               <span>
-                  <a class="country_name" href="https://www.lonelyplanet.com/vietnam">VIETNAM</a>
+                  <a class="country_name" href="https://www.iamsterdam.com/en/" target="_blank"><h4>NETHERLANDS</h4></a>
+              </span> 
+          </div>
+          <div class="col">
+              <span>
+                  <a href="https://www.lonelyplanet.com/vietnam" target="_blank"><img class="place-next-image" src="images/vietnam.jpg" src="images/vietnam.jpg" sizes="(max-width: 400px) 100vw, (min-width: 401px) 50vw" srcset="images/vietnam.jpg 400w, images/vietnam.jpg 800w" alt="Places to visit in Vietnam"></a>
               </span>
-            </li>
-          </ul>
+              <span>
+                  <a class="country_name" href="https://www.lonelyplanet.com/vietnam" target="_blank"><h4>VIETNAM</h4></a>
+              </span>
+          </div>
+          <div class="col">
+              <span>
+                  <a href="https://www.peru.travel/en-us/" target="_blank"><img class="place-next-image" src="images/peru.jpg" sizes="(max-width: 400px) 100vw, (min-width: 401px) 50vw" srcset="images/peru.jpg 400w, images/peru.jpg 800w" alt="Places to visit in Peru"></a>
+              </span>
+              <span>
+                  <a class="country_name" href="https://www.peru.travel/en-us/" target="_blank"><h4>PERU</h4></a>
+              </span>
+          </div>
+        </div>
         </section>
       </section>
     </main>

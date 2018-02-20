@@ -6,7 +6,7 @@ body, html {
 }
 
 body {
-  font-family: Roboto;
+  font-family: Arial, Sans-serif;
   font-size: 12px;
   color: #424242;
 }
@@ -32,7 +32,7 @@ ul {
  *
  */
 
-.news__more {
+.news-more {
   float: right;
   font-size: .8em;
   color: #333;
@@ -51,20 +51,20 @@ ul {
   transition: min-height 0.3s;
 }
 
-.header__inner {
+.header-inner {
   width: 100%;
   margin-left: auto;
   margin-right: auto;
 }
 
-.header__logo {
+.header-logo {
   height: 150px;  
   margin-right: 1em;
   vertical-align: top;
   margin-top: 12px;
 }
 
-.header__title {
+.header-title {
   color: #2d3c49;
   display: inline-block;
   float: right;
@@ -99,15 +99,15 @@ main {
  *
  */
 
-.cover__page {
+.cover-page {
   width: 100%;
   position: relative;
-  background-image: url("./images/peru.jpg");
+  background-image: url("./images/cover-page.jpg");
   background-size: cover;
   height: 600px;
 }
 
-.cover__page article {
+.cover-page article {
   box-sizing: border-box;
   background-color: #000;
   background-color: rgba(0, 0, 0, 0.7);
@@ -126,11 +126,11 @@ main {
  *
  */
 
-.places__list {
+.places-list {
   padding: 1em;
 }
 
-.feature__work {
+.feature-work {
   color: #7d97ad;
   display: block;
   font-weight: 300;
@@ -145,42 +145,39 @@ main {
  
 }
 
-.place__desc {
+.place-desc {
   display: block;
   font-size: 1.2em;
 }
 
-.place__today {
+.place-today {
   width: 60%;
   vertical-align: middle;
 }
 
-.place__today__image {
+.place-today-image {
   vertical-align: middle
 }
 
-.place__today__temp {
+.place-today-temp {
   font-size: 3em;
 }
 
-.place__today__deg {
+.place-today-deg {
   font-size: 2em;
   display: inline;
 }
 
-.place__next__item {
-  display: inline-block;
-  width: 33.33%;
-  text-align: center;
-  padding-top: 1.5em;
-  padding-bottom: 1.5em;
-}
-
-.place__next__item span {
-  display: block;
-}
-
-.place__next__image {
+.place-next-image {
   width: 80%;  
 
+}
+
+.places-flex-grid{
+     display: flex;
+}
+
+.col{
+    flex: 1;
+    text-align: center;
 }
