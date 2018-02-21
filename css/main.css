@@ -28,19 +28,6 @@ ul {
 
 /*
  *
- * Common
- *
- */
-
-.news-more {
-  float: right;
-  font-size: .8em;
-  color: #333;
-}
-
-
-/*
- *
  * Header
  *
  */
@@ -58,22 +45,21 @@ ul {
 }
 
 .header-logo {
-  height: 150px;  
+  height: 72px;
   margin-right: 1em;
   vertical-align: top;
   margin-top: 12px;
 }
 
 .header-title {
-  color: #2d3c49;
-  display: inline-block;
-  float: right;
+  color: #2d3c49;  
   font-weight: 300;
   font-size: 4em;
   margin: 0.5em 0.25em;
+  text-align: right;
 }
 
-.detail_title{
+.detail_title {
     font-size: 30px; 
     text-align: right;
 }
@@ -102,7 +88,7 @@ main {
 .cover-page {
   width: 100%;
   position: relative;
-  background-image: url("./images/cover-page.jpg");
+  background-image: url("../img/cover-page.jpg");
   background-size: cover;
   height: 600px;
 }
@@ -138,7 +124,7 @@ main {
 
 }
 
-.country_name{
+.country_name {
  color: #2d3c49;   
  font-size: 1.9em;
  text-decoration: none;   
@@ -173,11 +159,11 @@ main {
 
 }
 
-.places-flex-grid{
+.places-flex-grid {
      display: flex;
 }
 
-.col{
+.col {
     flex: 1;
     text-align: center;
 }
