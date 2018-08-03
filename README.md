@@ -11,7 +11,7 @@
 3.- After that you will see a browser showing a list of places which I traveled last year.
 ![alt text][principal]
 
-[principal]: https://github.com/zziro/portfolio/tree/master/readme-img
+[principal]: https://github.com/zziro/portfolio/blob/master/readme-img/principal.png
 
 ## References
 1. [HTML5](https://developer.mozilla.org/en-US/docs/Web/HTML/Element)
