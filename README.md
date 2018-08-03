@@ -1,6 +1,6 @@
-# Portfolio related to places that I traveled last year
+# Places to vist
 
-#How to launch the portfolio project
+## Getting started
 
 1.- Clone the project from the repositor to your local (e.g. /home/{User}/Projects) from:
 
