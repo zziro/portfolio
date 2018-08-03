@@ -9,7 +9,9 @@
 2.- Once the project is downloaded in your local, go to the Project folder and you will see the index.html file. Right-Click and open with a web browser of your preference.
 
 3.- After that you will see a browser showing a list of places which I traveled last year.
-![alt text](https://github.com/zziro/portfolio/tree/master/readme-img)
+![alt text][principal]
+
+[principal]: https://github.com/zziro/portfolio/tree/master/readme-img
 
 ## References
 1. [HTML5](https://developer.mozilla.org/en-US/docs/Web/HTML/Element)
